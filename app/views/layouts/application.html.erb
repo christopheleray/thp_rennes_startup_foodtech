@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Discover the best StartupFoodtech based in Rennes, Brittany France">
+    <meta name="author" content="THP Rennes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="the StartupFoodtech Rennes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>StartupFoodtech</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -8,14 +15,11 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-    <script type="text/javascript">
-
-    </script>
-
   </head>
 
   <body>
     <%= render 'layouts/header'%>
+    <%= render 'layouts/caroussel'%>
     <%= yield %>
     <%= render 'layouts/footer'%>
   </body>
