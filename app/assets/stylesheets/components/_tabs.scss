@@ -1,5 +1,5 @@
 .main-container{
-  width: 60%;
+  width: 80%;
   text-align: center;
   border: 1px solid grey;
   border-radius: 5px;
@@ -17,16 +17,13 @@
 
 .btn-primary{
   width: 150px;
-  margin-right: 10px;
+  margin: 10px;
 }
 
 #menu{
 	text-align: justify;
 }
 
-button.btn:active, button.btn:focus-within, button.btn:target, button.btn:active:focus {
-    outline: none;
-    box-shadow: none;
-    background-color: #353A3F;
-    border-color: #353A3F;
+.opacity{
+  opacity: 0.3;
 }
