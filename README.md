@@ -1,24 +1,29 @@
-# README
+# Projet THP Jquery groupe de Rennes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Groupe constitué de:
 
-Things you may want to cover:
+* Remi Samson
+* Romain Saillour
+* Christophe Leray
 
-* Ruby version
+Retrouvez l'app en production une [heroku ici](https://marche-ou-crepe.herokuapp.com/)
 
-* System dependencies
+## Installation de l'app en locale:
 
-* Configuration
+`$ git clone https://github.com/christopheleray/thp_rennes_startup_foodtech ` 
 
-* Database creation
+`$ bundle install`
 
-* Database initialization
+`$ rails db:create`
 
-* How to run the test suite
+`$ rails server`
 
-* Services (job queues, cache servers, search engines, etc.)
+Sur cette appe, nous avons conc utiliser la gem bootstrap et jquery. le site est constitue de 4 block:
+* barre de naviguation
+* caroussel de 3 images
+* un block avec 3 tabulation pour la presentation
+* un footer
 
-* Deployment instructions
+Vive les crêpes et ls galettes :)
 
-* ...
+
