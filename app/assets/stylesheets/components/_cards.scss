@@ -1,0 +1,16 @@
+.card {
+	display: flex;
+	border: none;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.card_img {
+	max-width: 400px;
+	margin: 5px;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
