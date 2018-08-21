@@ -2,7 +2,13 @@
   width: 60%;
   text-align: center;
   border: 1px solid grey;
+  border-radius: 5px;
   margin-top: 20px;
+  padding: 15px;
+}
+
+.main-container, h1{
+  margin-bottom: 20px;
 }
 
 .btn-container{
@@ -11,8 +17,16 @@
 
 .btn-primary{
   width: 150px;
+  margin-right: 10px;
 }
 
 #menu{
 	text-align: justify;
+}
+
+button.btn:active, button.btn:focus-within, button.btn:target, button.btn:active:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: #353A3F;
+    border-color: #353A3F;
 }
